@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="7.1.11" apprev="21010" start="node1" hassounds="1">
+  <panorama id="node1">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-70.15" tilt="0" projection="4" fov="70"/>
+      <flyin pan="-74.69" tilt="-90" projection="9" fov="270"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Перон станції" copyright="" info="" nodeid="node1" author="" tags="Трамвайчик" latitude="" comment="" longitude="" datetime="21.08.25 11:47" heading="0" customnodeid="peron"/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-76.75" tilt="-13.24" target="-84.5/-7.4/70.0" id="Point01" title="Підхід до вагону" url="{node2}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node2">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-81.2" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Перед потягом" copyright="" info="" nodeid="node2" author="" tags="Трамвайчик" latitude="" comment="" longitude="" datetime="21.08.25 11:52" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-234.22" tilt="-15.1" target="-70.2/0.0/70.0" id="Point01" title="Повернення на перон" url="{node1}" skinid="ht_node"/>
+      <hotspot description="" pan="-90.58" tilt="-6.3" target="" id="Point02" title="Вхід у вагон" url="{node3}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node3">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-25.14" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Критий вагон" copyright="" info="" nodeid="node3" author="" tags="" latitude="" comment="" longitude="" datetime="21.08.25 14:18" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-107.8" tilt="-12.16" target="-86.8/-1.2/70.0" id="Point01" title="Критий вагон" url="{node4}" skinid="ht_node"/>
+      <hotspot description="" pan="-289.09" tilt="-7.08" target="-121.2/0.0/70.0" id="Point02" title="Відкрита платформа" url="{node5}" skinid="ht_node"/>
+      <hotspot description="" pan="-31.93" tilt="-14.18" target="127.3/-5.9/70.0" id="Point03" title="Повернення на перон" url="{node2}" skinid="ht_node"/>
+      <hotspot description="" pan="-32.36" tilt="17.27" target="" id="Point05" title="Бойківський побут" url="{node9}" skinid="ht_node"/>
+      <hotspot description="" pan="-32.29" tilt="7.55" target="" id="Point06" title="Бойківська церква" url="{node26}" skinid="ht_node"/>
+      <hotspot description="" pan="-32.07" tilt="-2.99" target="" id="Point07" title="Бойківське господарство" url="{node32}" skinid="ht_node"/>
+      <hotspot description="" pan="-72.76" tilt="-2.29" target="" id="Point04" title="Подорож карпатським трамваєм" url="{node41}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node4">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="92.07" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Критий вагон" copyright="" info="" nodeid="node4" author="" tags="" latitude="" comment="" longitude="" datetime="21.08.25 14:13" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-267.72" tilt="-14.08" target="" id="Point01" title="Критий вагон" url="{node3}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node5">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-121.24" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Відкрита платформа" copyright="" info="" nodeid="node5" author="" tags="" latitude="" comment="" longitude="" datetime="21.08.25 13:52" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-121.39" tilt="-17.05" target="-97.8/-11.4/70.0" id="Point01" title="Відкрита платформа" url="{node6}" skinid="ht_node"/>
+      <hotspot description="" pan="-299.3" tilt="-22.05" target="" id="Point02" title="Критий вагон" url="{node3}" skinid="ht_node"/>
+      <hotspot description="" pan="-80.51" tilt="-5.51" target="" id="Point03" title="Подорож карпатським трамваєм" url="{node42}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node6">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-97.85" tilt="-11.41" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Відкрита платформа" copyright="" info="" nodeid="node6" author="" tags="" latitude="" comment="" longitude="" datetime="21.08.25 13:46" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-0.04" tilt="-20.17" target="60.7/-10.6/70.0" id="Point01" title="Відкрита платформа" url="{node5}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node9">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-2.35" tilt="0" projection="4" fov="70"/>
+      <flyin pan="-107.97" tilt="-1.11" projection="4" fov="71"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Бойківський побут" copyright="" info="" nodeid="node9" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 16:42" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-3.32" tilt="-12.61" target="" id="Point01" title="Зупинка &quot;Бойківський побут&quot;" url="{node10}" skinid="ht_node"/>
+      <hotspot description="" pan="-24.8" tilt="-30.28" target="-25.1/0.0/70.0" id="Point02" title="Повернутись назад" url="{node3}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node10">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-31.79" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Подвір'я хати" copyright="" info="" nodeid="node10" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 16:42" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-42.55" tilt="-11.27" target="-54.6/0.0/70.0" id="Point01" title="До хати" url="{node12}" skinid="ht_node"/>
+      <hotspot description="" pan="-89.96" tilt="-14.08" target="65.1/7.4/70.0" id="Point02" title="Подвір'я" url="{node11}" skinid="ht_node"/>
+      <hotspot description="" pan="-254.94" tilt="-12.26" target="" id="Point03" title="Назад до вагона" url="{node9}" skinid="ht_node"/>
+      <hotspot description="   Довга хата зі с. Шандровець Самбірського р-ну (1909 р.) Музей народної архітектури та побуту у Львові.&#xa;&#xa;   Це приклад так званої «довгої» хати, де під спільним дахом зблоковані житлові і господарські приміщення (стіни, хата, комора, боїще, стайня і стаєнка). " pan="-23.11" tilt="5.44" target="_top" id="Point04" title="Хата" url="https://lvivskansen.org/" skinid="ht_info"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node11">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="65.13" tilt="7.43" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Подвір'я хати" copyright="" info="" nodeid="node11" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 16:50" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-215.92" tilt="0.74" target="" id="Point01" title="Подвір'я" url="{node10}" skinid="ht_node"/>
+      <hotspot description="" pan="-291" tilt="-5.65" target="-54.6/0.0/70.0" id="Point02" title="До хати" url="{node12}" skinid="ht_node"/>
+      <hotspot description="" pan="-21.47" tilt="-9.92" target="-8.4/7.1/70.0" id="Point03" title="До кузні" url="{node18}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node12">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-54.62" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Подвір'я хати" copyright="" info="" nodeid="node12" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 12:27" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-358.49" tilt="-4.79" target="-31.8/0.0/70.0" id="Point01" title="Подвір'я" url="{node10}" skinid="ht_node"/>
+      <hotspot description="" pan="-43" tilt="-8.82" target="" id="Point02" title="Вхід в хату" url="{node13}" skinid="ht_node"/>
+      <hotspot description="" pan="-129.29" tilt="-7.15" target="" id="Point03" title="Комора" url="{node17}" skinid="ht_node"/>
+      <hotspot description="" pan="-180.48" tilt="-7.51" target="" id="Point04" title="До кузні" url="{node18}" skinid="ht_node"/>
+      <hotspot description="" pan="-304.2" tilt="-23.54" target="65.1/7.4/70.0" id="Point05" title="Подвір'я" url="{node11}" skinid="ht_node"/>
+      <hotspot description="Комора — це окрема дерев’яна господарська будівля біля хати, де зберігали зерно, сушені продукти, одяг і цінні речі. Її ставили на не&amp;shy;високі підмурки або «підвалини», щоб захистити запаси від вологи й гризунів. Стіни робили з тонких смерекових колод, а двері й кутки часто прикрашали різьбленням, тому комора поєднувала практичність і традиційну гуцульську декоратив&amp;shy;ність" pan="-138.7" tilt="6.89" target="" id="Point06" title="Комора" url="" skinid="ht_info"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node13">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="72.38" tilt="-20.23" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Вхід в хату" copyright="" info="" nodeid="node13" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 13:02" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-289.01" tilt="-31.09" target="" id="Point01" title="Сіни" url="{node14}" skinid="ht_node"/>
+      <hotspot description="" pan="-16.67" tilt="-9.45" target="" id="Point02" title="Комора" url="{node17}" skinid="ht_node"/>
+      <hotspot description="" pan="-52.39" tilt="-10.55" target="" id="Point03" title="До кузні" url="{node18}" skinid="ht_node"/>
+      <hotspot description="" pan="-108.11" tilt="-22.87" target="-54.6/0.0/70.0" id="Point04" title="Подвір'я" url="{node12}" skinid="ht_node"/>
+      <hotspot description="" pan="-168.55" tilt="-15.7" target="-31.8/0.0/70.0" id="Point05" title="Подвір'я" url="{node10}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node14">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="135.8" tilt="-6.96" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Сіни" copyright="" info="" nodeid="node14" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 14:30" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-227.44" tilt="-22.8" target="" id="Point01" title="Світлиця" url="{node15}" skinid="ht_node"/>
+      <hotspot description="" pan="-311.33" tilt="-29.32" target="-21.6/-6.4/70.0" id="Point02" title="Вихід" url="{node13}" skinid="ht_node"/>
+      <hotspot description="Хомут — це частина кінської упряжі, що надягається на шию коня чи вола. Він розподіляє тягар воза або плуга по шиї тварини, щоб не натирати шкіру й полегшити роботу. &#xa;&#xa;Хомут був незамінним у щоденній господарській праці селян.&#xa;" pan="-77.82" tilt="-0.16" target="" id="Point03" title="Хомут" url="" skinid="ht_info"/>
+      <hotspot description="Терлиця — це дерев’яний пристрій для прання білизни: похила дошка з жолобками або ребрами. На неї кла&amp;shy;ли намилені речі й терли праником, вибиваючи бруд. &#xa;&#xa;Терлицю ставили біля води й користувалися нею замість сучасної пральної машини.&#xa;" pan="-145.71" tilt="-18.71" target="" id="Point04" title="Терлиця" url="" skinid="ht_info"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node15">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="161.03" tilt="-2.32" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Світлиця" copyright="" info="" nodeid="node15" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 14:41" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-157.66" tilt="-27.04" target="-1.1/-6.3/70.0" id="Point01" title="" url="{node16}" skinid="ht_node"/>
+      <hotspot description="" pan="-40.86" tilt="-34.79" target="47.5/-10.4/70.0" id="Point02" title="Сіни" url="{node14}" skinid="ht_node"/>
+      <hotspot description="" pan="-228.79" tilt="-14.89" target="" id="Point03" title="Прядіння і вишивання" url="{node43}" skinid="ht_node"/>
+      <hotspot description="Мисник — це дерев’яна шафа або відкрита полиця для посуду, яку ставили чи вішали біля стіни в хаті. На ньому тримали глиняні миски, горнятка, дерев’яні ложки та святковий посуд, тож мисник одночасно був і «складом» посуду, і окрасою інтер’єру хати.&#xa;" pan="-357.33" tilt="-6" target="_self" id="Point04" title="Мисник" url="" skinid="ht_info"/>
+      <hotspot description="Скриня - використовувалася для зберігання одягу, рушників та дівочого приданого. Бойківські скрині вирізнялися скромним оздобленням - розетками, рослинними візерунками чи кільцями, виконаними у мальованій, різьбленій або кованій техніці." pan="-351.36" tilt="-39.85" target="_self" id="Point05" title="Скриня 3D" url="https://vyhodaheritage.com.ua/virtualtour/3d/skrynya.html" skinid="ht_url"/>
+      <hotspot description="" pan="-247.01" tilt="-32.76" target="_top" id="Point06" title="Виготовлення одягу" url="media/Priadinnia i vyshyvka.mp4" skinid="ht_video_file"/>
+      <hotspot description="" pan="-74.38" tilt="-23.91" target="_blank" id="Point07" title="Глек 3D" url="https://vyhodaheritage.com.ua/virtualtour/3d/hlechyk.html" skinid="ht_url"/>
+      <hotspot description="Прялка — це дерев’яний пристрій для прядіння ниток із льону чи вовни. На прялці сировину скручу&amp;shy;вали в рівну пряжу для тканин та одягу. Вона була одним із головних «домашніх верстатів» у селянському побуті й часто стояла в найтеплішому кутку хати.&#xa;" pan="142.86" tilt="-31.82" target="" id="Point08" title="Прялка" url="" skinid="ht_info"/>
+      <hotspot description="Кружівка — це невеликий круглий тягарець (пряслице), який надягають на веретено під час прядіння. Він обтяжує веретено, щоб воно краще й рівніше крутилося та скручувало льон чи вовну в нитку; кружівки робили з дерева або глини й зберіга&amp;shy;ли разом із прялкою.&#xa;" pan="124.68" tilt="-41.19" target="" id="Point09" title="Кружівка" url="" skinid="ht_info"/>
+      <hotspot description="Ночва — це велика дерев’яна корита, видовбана з цілого стовбура. У них замішували тісто на хліб і вареники, іноді прали білизну чи мили посуд. Ночви були обов’язковим кухонним начинням у традиційній українській хаті.&#xa;" pan="-122.38" tilt="-24.97" target="" id="Point10" title="Ночва" url="" skinid="ht_info"/>
+      <hotspot description="Піч — головний осередок традиційної української хати. У ній пекли хліб, готували страви, сушили одяг і трави, вона обігрівала помешкання взимку. На лежанці біля печі відпо&amp;shy;чивали й спали, тому піч була не тільки «кухнею», а й центром родинного життя.&#xa;" pan="-70.99" tilt="8.3" target="" id="Point11" title="Піч" url="" skinid="ht_info"/>
+      <hotspot description="Колиска — це невелике ліжечко для немовляти, яке гойдається на ніжках-дугах або підвішується до стелі. У ній дитину заколисували до сну, ховали від протягів і холоду. Колиска була символом продовження роду й важливою річчю в кожній селянській хаті." pan="-123.07" tilt="-1.7" target="" id="Point12" title="Колиска" url="" skinid="ht_info"/>
+    </hotspots>
+    <media>
+      <sound pan="-1.000" ambientlevel="0.000" mode="0" level="1.000" nodechangekeep="1" tilt="-1.000" field="90.000" pansize="10.000" id="_background" startmutedmobile="0" tiltsize="10.000" loop="1">
+        <source mono="0" url="media/  .mp3"/>
+      </sound>
+    </media>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node16">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-1.08" tilt="-6.35" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Світлиця" copyright="" info="" nodeid="node16" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 14:49" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-314.75" tilt="-33.96" target="3.6/-13.9/70.0" id="Point01" title="Світлиця" url="{node15}" skinid="ht_node"/>
+      <hotspot description="Колиска — це невелике ліжечко для немовляти, яке гойдається на ніжках-дугах або підвішується до стелі. У ній дитину заколисували до сну, ховали від протягів і холоду. Колиска була символом продовження роду й важливою річчю в кожній селянській хаті.&#xa;" pan="-41.42" tilt="-15.13" target="" id="Point02" title="Колиска" url="" skinid="ht_info"/>
+      <hotspot description="Ночва — це велика дерев’яна корита, видовбана з цілого стовбура. У них замішували тісто на хліб і вареники, іноді прали білизну чи мили посуд. Ночви були обов’язковим кухонним начинням у традиційній українській хаті.&#xa;" pan="-34.6" tilt="-40.02" target="" id="Point03" title="Ночва" url="" skinid="ht_info"/>
+      <hotspot description="Дійниці — це широкі неглибокі дерев’яні посудини, у які доїли корову й відстоювали молоко перед подальшою обробкою.&#xa;&#xa;Скіпці — менші бондарні відерця й діжечки, у яких переносили та зберігали молоко, вершки, сметану чи інші молочні продукти в господарстві." pan="-9.38" tilt="-40.81" target="" id="Point04" title="Дійниці скіпці" url="" skinid="ht_info"/>
+      <hotspot description="Гуцульське ліжко — це дерев’яне, зазвичай високе й відносно вузьке спальне місце, поставлене біля стіни або в покутті. Його оздоблювали різьбленням, домотканими веретами й килимами, а під ліжком часто зберігали скрині та скатані постелі. Таке ліжко було не лише місцем для сну, а й важливим елементом затишку й ошатності гуцульської хати.&#xa;" pan="-82.56" tilt="-35.42" target="" id="Point05" title="Ліжко" url="" skinid="ht_info"/>
+      <hotspot description="Прялка — це дерев’яний пристрій для прядіння ниток із льону чи вовни. На прялці сировину скручу&amp;shy;вали в рівну пряжу для тканин та одягу. Вона була одним із головних «домашніх верстатів» у селянському побуті й часто стояла в найтеплішому кутку хати." pan="105.51" tilt="-32.96" target="" id="Point06" title="Прялка" url="" skinid="ht_info"/>
+      <hotspot description="Кружівка — це невеликий круглий тягарець (пряслице), який надягають на веретено під час прядіння. Він обтяжує веретено, щоб воно краще й рівніше крутилося та скручувало льон чи вовну в нитку; кружівки робили з дерева або глини й зберіга&amp;shy;ли разом із прялкою.&#xa;" pan="86.23" tilt="-24.25" target="" id="Point07" title="Кружівка" url="" skinid="ht_info"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node17">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-63.87" tilt="-7.3" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Комора" copyright="" info="" nodeid="node17" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 14:13" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-262.41" tilt="-45.93" target="-54.6/0.0/70.0" id="Point01" title="Вихід" url="{node12}" skinid="ht_node"/>
+      <hotspot description="  Господарська жердка — це міцна дерев’яна перекладина, закріплена всередині будівлі під стелею або вздовж стіни. На ній підвішували одяг, мішки, реманент чи в’язки продуктів, щоб зберігати їх сухими, захищеними від мишей і завжди під рукою." pan="-61.33" tilt="11.7" target="" id="Point02" title="Жердка" url="" skinid="ht_info"/>
+      <hotspot description="  Дерев’яна лопата для зерна -  слу&amp;shy;гувала для насипання й перевер&amp;shy;тання зерна в коморі чи на току. Легке заглиблення дозволяло зручно набирати збіжжя, не пошкоджуючи його й не дряпаючи дерев’яну підлогу." pan="0" tilt="-37.61" target="" id="Point03" title="Лопата" url="" skinid="ht_info"/>
+      <hotspot description="  Лопата для хліба - плоска дерев’яна лопата використовувалась для саджання й виймання хлібин із печі. Дерево не перегрівалося, тому було безпечним для рук і не ушкоджувало ніжну скоринку свіжоспеченого хліба." pan="14.38" tilt="-32.98" target="" id="Point04" title="Лопата" url="" skinid="ht_info"/>
+      <hotspot description="  Масниця — це дерев’яна посудина для збивання вершків у масло. Усередині рухали довгою дерев’яною палицею з отворами, завдяки чому вершки «збивалися» й перетворюва&amp;shy;лися на грудку масла та пахтанку. &#xa;&#xa;Така масниця була обов’язковим предметом у гуцульському господарстві, де часто тримали корів і готували масло для щоденної їжі та продажу." pan="-71.9" tilt="-12.71" target="" id="Point05" title="Масниця" url="" skinid="ht_info"/>
+      <hotspot description="  Кадуб — це велика дерев’яна посудина, видовбана з цілого стовбура або збита з дощок. У ньому зберігали воду, молоко, капусту, м’ясо чи інші продукти, які потребу&amp;shy;вали багато місця й прохолоди. &#xa;&#xa;Кадуб ставили в коморі або сінях, де він слугував своєрідним «дерев’яним холодильником» традиційного господарства.&#xa;" pan="-93.53" tilt="-11.84" target="" id="Point06" title="Кадуб" url="" skinid="ht_info"/>
+      <hotspot description="  Діжки й чебреки — це дерев’яний бондарний посуд різного розміру. У діжках зберігали й квасили продукти (воду, молоко, капусту, м’ясо), а менші чебреки використовували для щоденної роботи в господарстві: переносили рідину, тримали молочні вироби чи тісто.&#xa;" pan="-135.01" tilt="-33.66" target="" id="Point07" title="Діжки чебреки" url="" skinid="ht_info"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node18">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-8.36" tilt="7.07" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Двір кузні" copyright="" info="" nodeid="node18" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 13:42" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-24.53" tilt="-13.42" target="" id="Point01" title="Кузня" url="{node19}" skinid="ht_node"/>
+      <hotspot description="" pan="-219.76" tilt="-13.91" target="65.1/7.4/70.0" id="Point02" title="До хати" url="{node11}" skinid="ht_node"/>
+      <hotspot description="" pan="-103.18" tilt="-18.46" target="" id="Point03" title="Трембітар" url="{node22}" skinid="ht_node"/>
+      <hotspot description="Кузня зі села Тур’є Самбірського району (1870 р.) нині зберігається в Музеї народної архітектури та побуту у Львові. Це добротна господарська будівля зі смерекового зрубу під двосхилим дахом, вкритим гонтою; над правим схилом даху здіймається масивний кам’яний димар, через який виходив дим від горна. У такій кузні селяни підковували коней, лагодили вози й сільськогосподарські знаряддя, кували цвяхи, петлі та інший залізний реманент, необхідний у щоденному господарстві." pan="-12.41" tilt="17.8" target="" id="Point04" title="Кузня" url="" skinid="ht_info"/>
+      <hotspot description="" pan="16.42" tilt="8.3" target="" id="Point05" title="Виготовлення гонти" url="media/Gonta.mp4" skinid="ht_video_file"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node19">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="96.58" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Вхід до кузні" copyright="" info="" nodeid="node19" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 18:10" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-264.69" tilt="-28.71" target="-32.5/-5.0/70.0" id="Point01" title="Кузня" url="{node20}" skinid="ht_node"/>
+      <hotspot description="" pan="-47.74" tilt="-16.21" target="" id="Point02" title="Трембітар" url="{node22}" skinid="ht_node"/>
+      <hotspot description="" pan="-116.12" tilt="-16.1" target="138.4/-2.3/70.0" id="Point03" title="Двір кузні" url="{node18}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node20">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-32.47" tilt="-4.95" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Кузня" copyright="" info="" nodeid="node20" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 18:21" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-357.81" tilt="-30" target="" id="Point01" title="" url="{node21}" skinid="ht_node"/>
+      <hotspot description="" pan="-186.97" tilt="-31.73" target="-116.5/-1.4/70.0" id="Point03" title="Вихід" url="{node19}" skinid="ht_node"/>
+      <hotspot description="Ковальські лещата — це масивний металевий інструмент для міцного затиску залізних заготовок під час кування, рубання чи обпилювання. Їх кріпили до верстака або дерев’я&amp;shy;ного стовпа, щоб витримувати сильні удари молота; завдяки лещатам майстер міг точно фіксувати деталь і безпечно працювати з розпеченим металом.&#xa;" pan="-27.44" tilt="-39.9" target="" id="Point04" title="Ковальські лещата" url="" skinid="ht_info"/>
+      <hotspot description="Піч з горнилом — це спеціальна вогнищева споруда, у якій розіг&amp;shy;рівали метал до червоного. Кам’яне або глиняне горнило утримувало жар, а через отвір з міхів подавали повітря, щоб вогонь ставав ще гарячішим. У такій печі коваль нагрівав залізо перед куванням під молотом, виготовляючи підкови, цвяхи та інші вироби.&#xa;" pan="-89.27" tilt="-21.46" target="" id="Point05" title="Піч з горнилом" url="" skinid="ht_info"/>
+      <hotspot description="" pan="-67.06" tilt="-8.93" target="" id="Point02" title="Робота коваля" url="{node44}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node21">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-123.24" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Кузня" copyright="" info="" nodeid="node21" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 18:30" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-249.25" tilt="-20.16" target="174.7/-11.9/70.0" id="Point01" title="" url="{node20}" skinid="ht_node"/>
+      <hotspot description="Ковальський міх — це пристрій для нагнітання повітря в горнило, щоб полум’я ставало гарячішим і могло розігріти метал до ковальської температури. Зазвичай він скла&amp;shy;дається з дерев’яного каркаса, обтягнутого шкірою, і сопла, через яке повітря подається до вогнища. Міх був «другим серцем» кузні й працював у парі з піччю та горнилом.&#xa;" pan="-133.98" tilt="-8.74" target="" id="Point02" title="Ковальський міх" url="" skinid="ht_info"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node22">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="330" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Трембітар" copyright="" info="" nodeid="node22" author="" tags="" latitude="" comment="" longitude="" datetime="30.08.25 15:22" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-142.07" tilt="-16.23" target="" id="Point01" title="Двір кузні" url="{node18}" skinid="ht_node"/>
+      <hotspot description="Бойківська трембіта — це довга дерев’яна труба, традиційний музичний та сигнальний інструмент гірських пастухів. Її виготовляли з ялини або смереки, довжиною до кількох метрів, обгортали корою чи корінням, щоб не тріскалася. Звуча&amp;shy;ння трембіти далеко розносилось у горах: нею скликали людей, пові&amp;shy;домляли про початок і кінець польових робіт, свята, весілля чи сумні події. Для бойків вона була не лише інструментом, а й частиною обрядової культури Карпат.&#xa;" pan="-179.05" tilt="-32.68" target="" id="Point02" title="Бойківська трембіта" url="" skinid="ht_info"/>
+      <hotspot description="" pan="80.61" tilt="-35.21" target="" id="Point03" title="Виготовлення трембіти" url="media/Trembita.mp4" skinid="ht_video_file"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node23">
+    <view fovmode="0" pannorth="0">
+      <start pan="178.42" tilt="-17.53" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Прядіння і вишивання" copyright="" info="" nodeid="node23" author="" tags="3600+4к" latitude="" comment="" longitude="" datetime="" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-177.29" tilt="-49.89" target="127.7/-18.9/70.0" id="Point01" title="Закрити відео" url="{node15}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node24">
+    <view fovmode="0" pannorth="0">
+      <start pan="-177.49" tilt="-15.65" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Робота коваля" copyright="" info="" nodeid="node24" author="" tags="3600+4к" latitude="" comment="" longitude="" datetime="" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-161.95" tilt="-44.43" target="-81.3/-22.9/70.0" id="Point01" title="Закрити відео" url="{node20}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node26">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-1.3" tilt="-0.05" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Бойківська церква" copyright="" info="" nodeid="node26" author="" tags="" latitude="" comment="" longitude="" datetime="10.08.25 13:09" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-24.75" tilt="-30.16" target="-25.1/0.0/70.0" id="Point02" title="Повернутися назад" url="{node3}" skinid="ht_node"/>
+      <hotspot description="" pan="-1.13" tilt="-14.17" target="" id="Point03" title="Зупинка &quot;Бойківська церква" url="{node25}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node25">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="330" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Подвір'я церкви" copyright="" info="" nodeid="node25" author="" tags="" latitude="" comment="" longitude="" datetime="10.08.25 13:09" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-4.4" tilt="-15.03" target="" id="Point01" title="Вхід до церкви" url="{node27}" skinid="ht_node"/>
+      <hotspot description="" pan="-177.3" tilt="-15.08" target="" id="Point02" title="Назад до вагона" url="{node26}" skinid="ht_node"/>
+      <hotspot description="Церква св. Юра в Дрогобичі — унікальна дерев’яна святиня XV ст., свого остаточного вигляду набула 1678 року. Нині це музей-церква св. Юра (Дрогобицький крає&amp;shy;знавчий музей).&#xa;Храм триверхий і тридільний, з двома критими галереями: нижньою навколо зрубу та верхньою, де розташований вхід до каплиці Введення Богородиці в храм. Усередині зберігся високий п’яти&amp;shy;ярусний іконостас 1659–1669 рр. та розпис стін приблизно 1659–1710-х років, що робить церкву цінною пам’яткою українського сакра&amp;shy;льного мистецтва." pan="-1.97" tilt="11.72" target="" id="Point03" title="Церква св. Юра" url="" skinid="ht_info"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node27">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-65.52" tilt="-14.84" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Вхід до церкви" copyright="" info="" nodeid="node27" author="" tags="" latitude="" comment="" longitude="" datetime="10.08.25 13:15" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-64.63" tilt="-36.01" target="-2.4/2.5/70.0" id="Point01" title="Храм вірних" url="{node30}" skinid="ht_node"/>
+      <hotspot description="" pan="-269.88" tilt="-22.51" target="-176.8/-11.7/70.0" id="Point02" title="Подвір'я церкви" url="{node25}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node30">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node30/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-2.36" tilt="2.5" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Храм вірних" copyright="" info="" nodeid="node30" author="" tags="" latitude="" comment="" longitude="" datetime="10.08.25 13:51" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-3.06" tilt="-25.4" target="" id="Point01" title="" url="{node29}" skinid="ht_node"/>
+      <hotspot description="" pan="-233.09" tilt="-36.08" target="87.8/-22.4/70.0" id="Point02" title="Вихід" url="{node27}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node29">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-1.7" tilt="2.48" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Храм вірних" copyright="" info="" nodeid="node29" author="" tags="" latitude="" comment="" longitude="" datetime="10.08.25 13:44" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-1" tilt="-22.33" target="" id="Point01" title="" url="{node28}" skinid="ht_node"/>
+      <hotspot description="" pan="-180.49" tilt="-23.58" target="125.3/-14.0/70.0" id="Point02" title="Храм вірних" url="{node30}" skinid="ht_node"/>
+      <hotspot description="Чудотворна ікона «Марія Сніжна» походить із другої половини XVII ст. Її особливо шанували як покро&amp;shy;вительку від негоди та життєвих небезпек: перед іконою молилися за врожай, здоров’я родини й порятунок у скруті. Образ брали в процесії на свята й під час спільних молитов, тому він посідав важливе місце в духовному житті громади.&#xa;" pan="103.4" tilt="-9.98" target="" id="Point03" title="Ікона" url="" skinid="ht_info"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node28">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-23.7" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Біля іконостасу" copyright="" info="" nodeid="node28" author="" tags="" latitude="" comment="" longitude="" datetime="10.08.25 13:38" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-205.4" tilt="-26.57" target="102.5/-1.1/70.0" id="Point01" title="" url="{node29}" skinid="ht_node"/>
+      <hotspot description="" pan="-23.61" tilt="-13.51" target="" id="Point02" title="Спів хору" url="{node45}" skinid="ht_node"/>
+      <hotspot description="Іконостас - високий п’ятиярусний іконостас церкви св. Юра створений між 1659 і 1669 роками й майже повністю зберігся донині. У нижньому, цокольному ярусі розміщені сюжетні ікони з рідкісною іконографією: «Лот з дочками», «Поклоніння іконі Богородиці» (сцена з Акафісту), «Апостол Петро на острові Мілет». Намісна ікона Пресвятої Трійці (зліва) та храмова ікона св. Юрія Змієборця (справа) датуються 1662 роком, а ікони Христа і Богородиці були замовлені братством у 1663 році. Разом вони творять цілісний бароковий ансамбль, який є однією з найцінніших частин убранства храму." pan="-23.45" tilt="4.31" target="" id="Point03" title="Іконостас" url="" skinid="ht_info"/>
+      <hotspot description="Двобічна процесійна ікона зі св. Юрієм Змієборцем, датована 1740 р., призначалася для церковних ходів. Образ святого написаний з обох боків дошки, щоб його було видно людям з різних сторін під час про&amp;shy;цесії. Такі ікони не лише супрово&amp;shy;джували вірян у молитві, а й підкреслювали особливе вшанування святого Юрія як покровителя громади.&#xa;" pan="-91.58" tilt="-8.94" target="" id="Point04" title="Ікона" url="" skinid="ht_info"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node31">
+    <view fovmode="0" pannorth="0">
+      <start pan="-23.61" tilt="-4.83" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Спів хору" copyright="" info="" nodeid="node31" author="" tags="3600+4к" latitude="" comment="" longitude="" datetime="" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-23.47" tilt="-12.58" target="" id="Point01" title="Закрити відео" url="{node28}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node32">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node32/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="-4.08" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Бойківське господарство" copyright="" info="" nodeid="node32" author="" tags="" latitude="" comment="" longitude="" datetime="19.08.25 18:13" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-2.94" tilt="-34.36" target="" id="Point01" title="Зупинка &quot;Бойківське господарство&quot;" url="{node33}" skinid="ht_node"/>
+      <hotspot description="" pan="-24.67" tilt="-27.25" target="" id="Point02" title="Повернутись назад" url="{node3}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node33">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node33/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="6.69" tilt="-5.08" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Полонина" copyright="" info="" nodeid="node33" author="" tags="" latitude="" comment="" longitude="" datetime="19.08.25 18:13" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-309.28" tilt="-25.89" target="" id="Point01" title="Колиба вівчаря" url="{node36}" skinid="ht_node"/>
+      <hotspot description="" pan="-352.38" tilt="-29.46" target="" id="Point03" title="Кошара" url="{node34}" skinid="ht_node"/>
+      <hotspot description="" pan="-33.82" tilt="-28.84" target="" id="Point04" title="Пасіка" url="{node38}" skinid="ht_node"/>
+      <hotspot description="" pan="-186.04" tilt="-12.55" target="" id="Point05" title="Назад до вагона" url="{node32}" skinid="ht_node"/>
+      <hotspot description="" pan="32.62" tilt="-17.14" target="" id="Point02" title="Вівці на полонині" url="{node46}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node34">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node34/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-34.17" tilt="-4.71" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Кошара" copyright="" info="" nodeid="node34" author="" tags="" latitude="" comment="" longitude="" datetime="19.08.25 16:03" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-303.01" tilt="-11.07" target="" id="Point01" title="До полонини" url="{node33}" skinid="ht_node"/>
+      <hotspot description="" pan="-18.67" tilt="-19.66" target="" id="Point02" title="" url="{node35}" skinid="ht_node"/>
+      <hotspot description="Кошара — це загорода для овець, зазвичай дерев’яний або плетений відгородок біля стайні чи посеред пасовища. У кошарі отару збирали на ніч або під час негоди, щоб захис&amp;shy;тити тварин від хижаків та холоду. Для бойків і гуцулів кошара була важливою частиною гірського вів&amp;shy;чарського господарства.&#xa;" pan="-50.03" tilt="-11.9" target="" id="Point03" title="Кошара" url="" skinid="ht_info"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node35">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node35/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-36.48" tilt="-4.51" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Кошара" copyright="" info="" nodeid="node35" author="" tags="" latitude="" comment="" longitude="" datetime="19.08.25 16:55" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-23.21" tilt="-16.12" target="" id="Point01" title="Доїння овець" url="{node47}" skinid="ht_node"/>
+      <hotspot description="" pan="-228.23" tilt="-1.44" target="60.7/-5.0/70.0" id="Point02" title="Кошара" url="{node34}" skinid="ht_node"/>
+      <hotspot description="Стунка — це спеціально відго&amp;shy;роджене місце для доїння овець у кошарі. Уздовж дерев’яної огорожі вишиковували отару, фіксували тварин біля жолобка з кормом і спокійно доїли. Така стунка полег&amp;shy;шувала працю вівчаря й дозволяла швидко зібрати молоко для сиру та будзу.&#xa;" pan="-58.19" tilt="-22.57" target="" id="Point03" title="Струнка" url="" skinid="ht_info"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node36">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node36/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0.16" tilt="-1.03" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Колиба вівчаря" copyright="" info="" nodeid="node36" author="" tags="" latitude="" comment="" longitude="" datetime="04.09.25 12:38" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-4.08" tilt="-16.65" target="" id="Point01" title="Виготовлення сиру" url="{node37}" skinid="ht_node"/>
+      <hotspot description="" pan="-264.73" tilt="-14.69" target="" id="Point02" title="До полонини" url="{node33}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node37">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node37/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0.46" tilt="-18.35" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Виготовлення сиру" copyright="" info="" nodeid="node37" author="" tags="" latitude="" comment="" longitude="" datetime="04.09.25 12:32" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-191.6" tilt="-22.3" target="95.7/-12.5/70.0" id="Point01" title="Колиба вівчаря" url="{node36}" skinid="ht_node"/>
+      <hotspot description="Вівчарська колиба — це тимчасове житло пастухів високо в горах. Невелика дерев’яна хатинка з дранкою чи ґонтою на даху, біля якої розташовані кошара й місце для вогнища. У колибі спали на нарах, сушили одяг, варили сир і будз, тож вона була центром усього літнього вівчарського господарства на полонині.&#xa;" pan="49.5" tilt="0.79" target="" id="Point02" title="Вівчарська колиба" url="" skinid="ht_info"/>
+      <hotspot description="" pan="-14.13" tilt="-43.22" target="" id="Point03" title="" url="media/Budz Y_1.mp4" skinid="ht_video_file"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node38">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node38/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-125.59" tilt="-0.36" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Пасіка" copyright="" info="" nodeid="node38" author="" tags="" latitude="" comment="" longitude="" datetime="14.08.25 16:26" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-58.19" tilt="-21.57" target="" id="Point01" title="До полонини" url="{node33}" skinid="ht_node"/>
+      <hotspot description="Кадуби, дуплянки, колоди, кругляки або просто «пні» — це традиційні видовбані вулики з колод дуба, липи, смереки чи верби. Їх розвішували високо на деревах, щоб імітувати природні дупла й приманювати дикі рої бджіл. Такий спосіб бортництва був поширений у Карпатах задовго до появи сучасних рамкових вуликів, а побачити подібні вулики можна, зокрема, в Музеї народної архітектури та побуту у Львові.&#xa;&#xa;https://lvivskansen.org/" pan="-137.6" tilt="16.2" target="" id="Point02" title="Кругляки, кадуби" url="" skinid="ht_info"/>
+      <hotspot description="Дуплянки – примітивні вулики, що імітують природне дупло: вертикально поставлена видовбана колода без дна, з льотком збоку й накритим дахом. " pan="-162.51" tilt="-14.42" target="" id="Point03" title="Дуплянка" url="" skinid="ht_info"/>
+      <hotspot description="Кадуби, дуплянки, колоди, кругляки або просто «пні» — це традиційні видовбані вулики з колод дуба, липи, смереки чи верби. Їх розвішували високо на деревах, щоб імітувати природні дупла й приманювати дикі рої бджіл. Такий спосіб бортництва був поширений у Карпатах задовго до появи сучасних рамкових вуликів, а побачити подібні вулики можна, зокрема, в Музеї народної архітектури та побуту у Львові.&#xa;&#xa;https://lvivskansen.org/" pan="78.27" tilt="26.84" target="" id="Point04" title="Кадуби, дуплянки" url="" skinid="ht_info"/>
+      <hotspot description="Дуплянки – примітивні вулики, що імітують природне дупло: вертикально поставлена видовбана колода без дна, з льотком збоку й накритим дахом." pan="21.14" tilt="-9.21" target="" id="Point05" title="Дуплянка" url="" skinid="ht_info"/>
+      <hotspot description="" pan="-141.01" tilt="-13.51" target="" id="Point06" title="Виготовлення меду" url="media/Med.mp4" skinid="ht_video_file"/>
+      <hotspot description="" pan="-113.98" tilt="-13.4" target="_self" id="Point07" title="Вулик 3D" url="&quot;C:\Users\mrgoo\OneDrive\Робочий стіл\Трамвайчик1\Трамвайчик\output\tour_output\3d\vulyk.html&quot;" skinid="ht_url"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node39">
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="330" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Вівці на полонині" copyright="" info="" nodeid="node39" author="" tags="3600+4к" latitude="" comment="" longitude="" datetime="" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-259.75" tilt="-32.13" target="" id="Point01" title="Закрити відео" url="{node33}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node40">
+    <view fovmode="0" pannorth="0">
+      <start pan="-163.9" tilt="-21.43" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="Доїння овець" copyright="" info="" nodeid="node40" author="" tags="3600+4к" latitude="" comment="" longitude="" datetime="" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-146.91" tilt="-31.28" target="-32.4/-15.0/70.0" id="Point01" title="Закрити відео" url="{node35}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node41">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node41/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+      <video startonload="1" format="equi" startmutedmobile="0" level="1" endaction="loop" targetview="">
+        <source url="videos/Tramway18k_for process_8k_360_final_injected_1.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="330" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="" copyright="" info="" nodeid="node41" author="" tags="Pano2VR5" latitude="" comment="" longitude="" datetime="21.08.2025 14:18" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-176.28" tilt="-3.99" target="" id="Point01" title="Закрити відео" url="{node3}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node42">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node42/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+      <video startonload="1" format="equi" startmutedmobile="0" level="1" endaction="loop" targetview="">
+        <source url="videos/Tramway28k_for process_8k_360_final_injected_1.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="330" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="" copyright="" info="" nodeid="node42" author="" tags="Pano2VR5" latitude="" comment="" longitude="" datetime="21.08.2025 13:52" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-146.16" tilt="-2.83" target="" id="Point01" title="Закрити відео" url="{node5}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node43">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node43/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+      <video startonload="1" format="equi" startmutedmobile="0" level="1" endaction="loop" targetview="">
+        <source url="videos/_injected_1.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="330" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="" copyright="" info="" nodeid="node43" author="" tags="Pano2VR5" latitude="" comment="" longitude="" datetime="14.08.2025 14:41" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-5.3" tilt="-18.27" target="" id="Point01" title="Закрити відео" url="{node15}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node44">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node44/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+      <video startonload="1" format="equi" startmutedmobile="0" level="1" endaction="loop" targetview="">
+        <source url="videos/Koval apple garden_8k_360_final_injected_1-1.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="330" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="" copyright="" info="" nodeid="node44" author="" tags="Pano2VR5" latitude="" comment="" longitude="" datetime="14.08.2025 18:21" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-172.27" tilt="-3.93" target="" id="Point01" title="Закрити відео" url="{node20}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node45">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node45/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+      <video startonload="1" format="equi" startmutedmobile="0" level="1" endaction="loop" targetview="">
+        <source url="videos/ 360_1-1.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="330" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="" copyright="" info="" nodeid="node45" author="" tags="Pano2VR5" latitude="" comment="" longitude="" datetime="10.08.2025 13:38" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-21.38" tilt="-12.42" target="" id="Point01" title="Закрити відео" url="{node28}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node46">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node46/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+      <video startonload="1" format="equi" startmutedmobile="0" level="1" endaction="loop" targetview="">
+        <source url="videos/Sheep8k_for process_8k_360_final_injected_1_2_1.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="330" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="" copyright="" info="" nodeid="node46" author="" tags="Pano2VR5" latitude="" comment="" longitude="" datetime="19.08.2025 18:13" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="-33.32" tilt="-19.44" target="" id="Point01" title="Закрити відео" url="{node33}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node47">
+    <input height="4000" levelbiashidpi="0.400" overlap="1" levelingroll="0" leveltileurl="tiles/node47/cf_%c/l_%l/c_%x/tile_%y.jpg" width="4000" leveltilesize="510" levelbias="0.400" levelingpitch="0">
+      <level preload="0" height="4000" predecode="0" width="4000"/>
+      <level preload="0" height="2000" predecode="0" width="2000"/>
+      <level preload="0" height="1000" predecode="0" width="1000"/>
+      <level preload="1" height="500" predecode="1" width="500"/>
+      <preview color="0x808080" strip="1"/>
+      <video startonload="1" format="equi" startmutedmobile="0" level="1" endaction="loop" targetview="">
+        <source url="videos/Doinnia_lighter_8k_360_final_1-1.mp4"/>
+      </video>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="330" fov="120" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata description="" source="" title="" copyright="" info="" nodeid="node47" author="" tags="Pano2VR5" latitude="" comment="" longitude="" datetime="19.08.2025 16:55" heading="0" customnodeid=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label height="20" enabled="1" bordercolor="0x000000" width="180" borderradius="1" textalpha="1" background="1" wordwrap="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" border="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.25098" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot description="" pan="13.28" tilt="-24.52" target="" id="Point01" title="Закрити відео" url="{node35}" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" softedge="0" zoomfov="20" enabled="0" zoomafterinfov="90" zoomout="0" zoomoutpause="1" zoomafteroutfov="20" zoomspeed="2" type="crossdissolve" blendtime="1" delay="none" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+    <control invertwheel="0" lockedkeyboard="0" sensitivity="8" lockedkeyboardzoom="0" zoomcentercursor="1" invertcontrol="1" contextfullscreen="0" dblclickfullscreen="0" speedwheel="1" lockedmouse="0" contextprojections="0" lockedwheel="0" hideabout="0" contextvr="1" rubberband="0" simulatemass="1"/>
+  </panorama>
+  <masternode>
+    <userdata description="" tags="" comment="" title="" copyright="" author=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
