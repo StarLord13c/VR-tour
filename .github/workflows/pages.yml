@@ -1,4 +1,4 @@
-name: Deploy VR tour to GitHub Pages
+name: Deploy VR
 
 on:
   push:
@@ -30,8 +30,6 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-      # Тут ми просто деплоїмо ВЕСЬ корінь репозиторію
-      # де у тебе вже є index.html, pano.js, tiles, images, videos і т.д.
       - name: Upload static files
         uses: actions/upload-pages-artifact@v3
         with:
